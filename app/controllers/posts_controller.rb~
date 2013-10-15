@@ -1,0 +1,5 @@
+class PostsController < ApplicationController
+  def index
+	  @aa = "good good study, day day up!"
+  end
+end

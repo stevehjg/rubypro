@@ -1,0 +1,7 @@
+<h1>hello</h1>
+<%= @aa.to_s %>
+<ul>
+<% @posts.each da |p| %>
+    <li><%= p.title %></li>
+<% end %>
+</ul>
